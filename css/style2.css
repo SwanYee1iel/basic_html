@@ -1,0 +1,57 @@
+/* Reset default spacing */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background & base text */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;  /* light gray */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    color: #fff;
+    text-align: center;
+    padding: 24px 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* Main content wrapper */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card style for sections */
+.biography,
+.achievements {
+    background-color: #ffffff;        /* white cards */
+    padding: 20px;
+    border-radius: 12px;              /* smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+    flex: 1 1 100%;                   /* full width on small screens */
+}
+
+/* Biography image */
+.biography img {
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 50%;   /* circle image */
+    object-fit: cover;
+}
+
+/* Section*
